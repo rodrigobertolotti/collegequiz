@@ -1,0 +1,36 @@
+.texto{
+    font-family: 'Signika', sans-serif;
+    font-size: 32px;
+    color: black;
+}
+.textoPrimeras{
+    font-family: 'Signika', sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    color: black;
+}
+.textoVolver{
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.titulo{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: #3fb7aa;
+}
+.btnJugar{
+    margin-top:70px;
+    width: 35%;
+    height:100px;
+    border: 3px solid white;
+    background-color: #3fb7aa;
+    border-radius: 10px;
+
+}
+
+.actual{
+    background-color:#3fb7aa ;
+}

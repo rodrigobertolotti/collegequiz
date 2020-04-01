@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161177469-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-161177469-1');
+</script>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="Js/CrearPregunta.js"></script> 
+    <script type="text/javascript" src="Js/Pregunta.js"></script>
+    <script type="text/javascript" src="Js/Botones.js"></script>
+    <link rel="stylesheet" href="CSS/preguntas.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="sweetalert2.all.min.js"></script>  
+    <link href="https://fonts.googleapis.com/css?family=Signika&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fffe900c40.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="pantalla" style="position:relative">
+        <div id="imagen" class="imagen">        
+        </div>
+        <div id="botones" class="botonesDiv"></div>
+        <div id="pregunta" class="pregunta"></div>
+        <div id="dificultad" class="dificultad">
+            <div id="baja" ></div>
+            <div id="media" ></div>
+            <div id="alta" ></div>
+        </div>
+        <div id="respuestas" class="respuestas"></div>
+        <div id="timer"></div>
+    </div>
+</body>
+</html>

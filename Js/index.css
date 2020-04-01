@@ -1,0 +1,109 @@
+.item-container{
+    width: 400px;
+    border: 2px solid;
+    margin: 10px;
+    height: 400px;
+}
+.swal-wide{
+    width:300px !important;
+}
+.hacer-container{
+    width: 400px;
+    border: 2px solid; 
+    margin: 10px;
+    height: 400px;
+}
+
+.padre{
+    display: flex;
+}
+
+input[type='text'],
+input[type='number'],
+textarea {
+  font-size: 16px;
+}
+
+.header{
+    width: 100%;
+    align-content: center;
+    height: 40px;
+    border: 1px solid;
+}
+.bloque{
+    width: 300px;
+}
+
+.items{
+    text-align: center;
+    width: 380px;
+    background-color: brown;
+    height: 50px;
+    position: absolute;
+    z-index : 999;
+
+}
+
+.textoItem{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 40px;
+
+}
+
+.snap{
+    width: 300px;
+    height: 50px;
+    background-color:whitesmoke;
+    border: 1px solid;
+    border-radius: 7px;
+    margin:20px;
+}
+
+.over{
+    background-color: yellow;
+}
+
+.tituloLogin{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: #3fb7aa;
+}
+
+.subtituloLogin{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: #3fb7aa;
+}
+
+.tituloModal{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: #3fb7aa;
+}
+.subtituloModal{
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: black;
+}
+
+.tituloModalError{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    color: #d95e5b;
+}
+
+@media (min-width: 768px) {
+    /* For desktop: */
+
+  }

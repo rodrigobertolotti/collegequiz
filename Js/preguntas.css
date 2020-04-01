@@ -1,0 +1,259 @@
+
+.ventana{
+    background-color: #3fb7aa;
+    height: 100%;
+
+}
+
+.logo{
+    display:block;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    width: 70%;
+    padding-top: 250px;
+}
+
+
+.btnJugar{
+    margin-top: 200px;
+    width: 35%;
+    height:100px;
+    border: 3px solid white;
+    background-color: #3fb7aa;
+
+}
+.btnRanking{
+    margin-top: 30px;
+    width: 35%;
+    height:100px;
+    border: 3px solid white;
+    background-color: #3fb7aa;
+
+}
+
+.textoJugar{
+    font-family: 'Signika', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin: 0px;
+}
+
+.respuestas{
+    text-align: center;
+    margin-top: 30px;
+
+    
+}
+.pregunta{
+
+    background-color: white;
+    font-size: 20px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-family: 'Signika', sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-transform: uppercase;
+    color: #3fb7aa;
+}
+.respuestas button {
+    align-content: center;
+    background-color: gainsboro; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 70%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+    font-family: 'Signika', sans-serif;
+    font-size: 18px;
+  }
+
+  .dificultad{
+      margin-top: 15px;
+      margin-bottom: 40px;
+  }
+  /* Add a background color on hover */
+  .respuestas button:hover {
+    background-color: #768a77;
+  }
+
+  button{
+    margin:auto;
+    display:block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+
+.contador{
+    font-size: 30px;
+    font-family: 'Signika', sans-serif;
+}
+
+.baja{
+    width: 40%;
+    height: 10px;
+    background-color:#3fb7aa;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+    float: left;
+}
+
+.media{
+    width:40%;
+    height:10px;
+    background-color: #f3c744;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline;
+    float: left;
+}
+
+.alta{
+    width:40%;
+    height:10px;
+    background-color: #d95e5b;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+.inactiva{
+    width:25%;
+    height:10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+
+.imagen{
+    display:block;
+    margin: auto;
+    align-content: center;
+    width: 100%;
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    position:relative;
+}
+
+.timer{
+    margin-top: 30px;
+    font-family: 'Signika', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+  
+
+  .botones{
+      text-align: center;
+  }
+
+.botonesDiv{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 10;
+}
+  .botonesExtra{
+      width: 55px;
+      height: 55px;
+    margin-left: 10px;
+        margin-top: 15px;
+      border-radius: 15px;
+      background-color: whitesmoke;
+      opacity: 0.9;
+  }
+
+  .inactivo{
+      color: grey;
+  }
+  .corazon{
+      color: #d95e5b;
+  }
+  .reloj{
+    color: #3fb7aa;
+    }
+
+
+/*
+@media (min-width: 768px) {
+    .imagen{
+        display:block;
+        margin: auto;
+        align-content: center;
+        width: 50%;
+        text-align: center;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+    .baja{
+        width: 20%;
+        height: 10px;
+        background-color:#3fb7aa;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: inline;
+        float: left;
+        margin-left: 100px;
+    }
+    
+    .media{
+        width:20%;
+        height:10px;
+        background-color: #f3c744;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: inline;
+        float: left;
+    }
+    
+    .alta{
+        width:20%;
+        height:10px;
+        background-color: #d95e5b;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        float: left;
+    }
+    
+    .inactiva{
+        width:30%;
+        height:10px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        float: left;
+    }
+    .pregunta{
+
+        background-color: white;
+        font-size: 35px;
+        padding-left:70px;
+        padding-right: 70px;
+        font-family: 'Signika', sans-serif;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        text-transform: uppercase;
+        color: #3fb7aa;
+    }
+
+  }
+  
